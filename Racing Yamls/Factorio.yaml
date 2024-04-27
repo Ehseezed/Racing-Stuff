@@ -35,7 +35,7 @@ Factorio:
 
   tech_cost_distribution: even
 
-  tech_cost_mix:
+  tech_cost_mix: 70
 
   ramping_tech_costs: false
 
