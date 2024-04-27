@@ -1,0 +1,60 @@
+﻿name: Factorio_Comp{NUMBER}
+description: Default Factorio Template
+
+game: Factorio
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Factorio:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # Locations: ensure everything can be reached and acquired.
+    # Items: ensure all logically relevant items can be acquired.
+    # Minimal: ensure what is needed to reach your goal can be acquired.
+    locations: 0
+    items: 50
+    minimal: 0
+
+  max_science_pack: military_science_pack # enjoy petro chem
+
+  goal: rocket
+
+  tech_tree_layout: random
+
+  min_tech_cost: 5
+
+  max_tech_cost: 500
+
+  tech_cost_distribution: even
+
+  tech_cost_mix:
+
+  ramping_tech_costs: false
+
+  silo: spawn
+
+  free_samples: stack
+
+  tech_tree_information: advancement
+
+  starting_items:
+    burner-mining-drill: 19
+    raw-fish: 50
+    stone-furnace: 19
+    submachine-gun: 1 # biters are not going to be the main focus but be wary with your ammo you dont start with a lot
+    uranium-rounds-magazine: 25
+
+  recipe_time: normal
+
+  recipe_ingredients: science_pack
+
+  progressive:
+    on: 50

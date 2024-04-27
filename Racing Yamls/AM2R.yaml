@@ -1,0 +1,31 @@
+﻿name: AM2R_Comp{NUMBER}
+description: Comp AM2R Template
+
+game: AM2R
+requires:
+  version: 0.4.5
+
+AM2R:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  MetroidsRequired: 20
+
+  MetroidsAreChecks:
+    include_a6: 50
+
+  TrapFillPercentage:
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0

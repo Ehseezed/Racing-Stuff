@@ -1,0 +1,142 @@
+﻿name: Clique_Comp P{number}
+description: Default Clique Template
+
+game: Clique
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Clique:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  color: random
+
+  hard_mode:
+    false: 50
+    true: 0
+
+---
+
+name: Clique_Comp P{number}
+description: Default Clique Template
+
+game: Clique
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Clique:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  color: random
+
+  hard_mode:
+    false: 50
+    true: 0
+
+---
+
+name: Clique_Comp P{number}
+description: Default Clique Template
+
+game: Clique
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Clique:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  color: random
+
+  hard_mode:
+    false: 50
+    true: 0
+
+---
+
+name: Clique_Comp P{number}
+description: Default Clique Template
+
+game: Clique
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Clique:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  color: random
+
+  hard_mode:
+    false: 50
+    true: 0
+
+---
+
+name: Clique_Comp P{number}
+description: Default Clique Template
+
+game: Clique
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Clique:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  color: random
+
+  hard_mode:
+    false: 50
+    true: 0

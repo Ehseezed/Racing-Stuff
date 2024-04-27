@@ -1,0 +1,198 @@
+﻿name: Player{NUMBER}
+description: AlttP_Comp{NUMBER}
+
+game: A Link to the Past
+requires:
+  version: 0.4.6
+
+A Link to the Past:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 
+    normal: 50
+    extreme: 0
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  goal:
+    ganon: 50
+    crystals: 0
+    bosses: 0
+    ganon_pedestal: 0
+
+  mode:
+    standard: 0
+    open: 50
+    inverted: 0
+
+  glitches_required:
+    no_glitches: 50
+    minor_glitches: 0
+    overworld_glitches: 0
+    hybrid_major_glitches: 0
+    no_logic: 0
+
+  dark_room_logic:
+    lamp: 50
+    torches: 0
+    none: 0
+
+  open_pyramid:
+    closed: 0
+    open: 0
+    goal: 50
+    auto: 0
+
+  crystals_needed_for_gt:
+    7: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  crystals_needed_for_ganon:
+    7: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  entrance_shuffle:
+    vanilla: 50
+    dungeons_simple: 0
+    dungeons_full: 0
+    dungeons_crossed: 0
+
+  entrance_shuffle_seed:
+    random: 50
+
+  big_key_shuffle:
+    original_dungeon: 50
+    own_dungeons: 0
+    own_world: 0
+    any_world: 0
+    different_world: 0
+    start_with: 0
+
+  small_key_shuffle:
+    original_dungeon: 50
+    own_dungeons: 0
+    own_world: 0
+    any_world: 0
+    different_world: 0
+    start_with: 0
+    universal: 0
+
+  key_drop_shuffle:
+    false: 0
+    true: 50
+
+  compass_shuffle:
+    # Compass Placement
+    original_dungeon: 50
+    own_dungeons: 0
+    own_world: 0
+    any_world: 0
+    different_world: 0
+    start_with: 0
+
+  map_shuffle:
+    # Map Placement
+    original_dungeon: 50
+    own_dungeons: 0
+    own_world: 0
+    any_world: 0
+    different_world: 0
+    start_with: 0
+
+  progressive:
+    off: 0
+    grouped_random: 0
+    on: 50
+
+  dungeon_counters:
+    on: 0
+    pickup: 50
+    default: 0
+    off: 0
+
+  hints:
+    off: 0
+    on: 50
+    full: 0
+
+  scams:
+    off: 50
+    king_zora: 0
+    bottle_merchant: 0
+    all: 0
+
+  boss_shuffle:
+    none: 50
+    basic: 0
+    full: 0
+    chaos: 0
+    singularity: 0
+
+  enemy_shuffle:
+    false: 50
+    true: 0
+
+  killable_thieves: true
+
+  shop_item_slots:
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  randomize_shop_inventories:
+    default: 50
+    randomize_by_shop_type: 0
+    randomize_each: 0
+
+  shuffle_shop_inventories:
+    false: 50
+    true: 0
+
+  include_witch_hut:
+    false: 50
+    true: 0
+
+  randomize_shop_prices:
+    false: 50
+    true: 0
+
+  randomize_cost_types:
+    false: 50
+    true: 0
+
+  shop_price_modifier:
+    100: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  shuffle_capacity_upgrades: 
+    on: 0
+
+  bombless_start:
+    false: 50
+    true: 0
+
+  tile_shuffle: true
+
+  glitch_boots: true
+
+  heartbeep: half
+
+  quickswap: true
+
+  menuspeed: normal
+
+  music: true
+
+  reduceflashing: true

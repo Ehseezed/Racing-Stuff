@@ -1,0 +1,116 @@
+﻿name: SM_Comp{NUMBER}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Super Metroid Template
+
+game: Super Metroid
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Super Metroid:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  preset: causal
+
+  remote_items: false
+
+  max_difficulty: hard
+
+  morph_placement: normal # Vanilla morph
+
+  area_randomization:
+    # Randomize areas together using bidirectional access portals.
+    off: 50
+    light: 0
+    full: 0
+
+  area_layout:
+    # Some layout tweaks to make your life easier in areas randomizer.
+    false: 50
+    true: 0
+
+  doors_colors_rando:
+    # Randomize the color of Red/Green/Yellow doors. Add four new type of doors which require Ice/Wave/Spazer/Plasma
+    # beams to open them.
+    false: 50
+    true: 0
+
+  allow_grey_doors:
+    # When randomizing the color of Red/Green/Yellow doors, some doors can be randomized to Grey. Grey doors will never
+    # open, you will have to go around them.
+    false: 50
+    true: 0
+
+  boss_randomization:
+    # Randomize Golden 4 bosses access doors using bidirectional access portals.
+    false: 50
+    true: 0
+
+  spin_jump_restart: false
+
+  rando_speed: false # this is speed keep
+
+  infinite_space_jump: false
+
+  refill_before_save: false
+
+  tourian:
+    vanilla: 50
+    fast: 0
+    disabled: 0
+
+  custom_objective:
+    # Use randomized custom objectives. You can choose which objectives are available for the randomizer to choose from. If enabled, the randomizer 
+    # will choose "Custom objective count" objectives from "Custom objective list". Otherwise, only objective is used. Default is disabled.
+    false: 50
+    true: 0
+
+  custom_objective_list:
+    # If ""Custom objectives"" is enabled, "Custom Objective count" will be used to pick an amount of objective from the list.
+    # This setting is ignored if ""Custom objectives"" is set to false.
+    # Note: If you leave the list empty no objective is required to access Tourian, ie. it's open.
+    # Note: See the Tourian parameter to enable fast Tourian or trigger the escape when all objectives are completed.
+    # Note: Current percentage of collected items is displayed in the inventory pause menu.
+    # Note: Collect 100% items is excluded by default as it requires you to complete all the objectives.
+    # Note: In AP, Items% and areas objectives are counted toward location checks, not items collected or received, except for "collect all upgrades"
+    # 
+    # Format as a comma-separated list of objective names: ["kill three G4", "collect 75% items"] or ["random"] to specify the whole list except
+    # "collect 100% items" and "nothing". The default is ["random"]. A full list of supported objectives can be found at:
+    # https://github.com/ArchipelagoMW/Archipelago/blob/main/worlds/sm/variaRandomizer/utils/objectives.py
+    ['random']
+
+  custom_objective_count:
+    # By default you need to complete 4 objectives from the list to access Tourian. You can choose between 1 and 5. This setting is ignored if
+    # ""Custom objectives"" is set to false.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  objective:
+    # If ""Custom objectives"" is disabled, choose which objectives are required to sink the Golden Four statue and to open access to Tourian.
+    # You can choose from 0 to 5 objectives. Up to the first 5 objectives from the list will be selected.
+    # Note: If you leave the list empty no objective is required to access Tourian, ie. it's open.
+    # Note: See the Tourian parameter to enable fast Tourian or trigger the escape when all objectives are completed.
+    # Note: Current percentage of collected items is displayed in the inventory pause menu.
+    # Note: In AP, Items% and areas objectives are counted toward location checks, not items collected or received, except for "collect all upgrades"
+    # 
+    # Format as a comma-separated list of objective names: ["kill three G4", "collect 75% items"]. The default is ["kill all G4"].
+    # A full list of supported objectives can be found at:
+    # https://github.com/ArchipelagoMW/Archipelago/blob/main/worlds/sm/variaRandomizer/utils/objectives.py
+    ['kill all G4']

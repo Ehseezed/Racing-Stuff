@@ -1,0 +1,39 @@
+﻿name: Minecraft_Comp{NUMBER}
+description: Default Minecraft Template
+
+game: Minecraft
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Minecraft:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  advancement_goal: 50
+
+  required_bosses:
+    # Bosses which must be defeated to finish the game.
+    none: 0
+    ender_dragon: 50
+    wither: 0
+    both: 0
+
+  shuffle_structures: true
+
+  structure_compasses: true
+
+  include_hard_advancements: false
+
+  include_unreasonable_advancements: false
+
+  include_postgame_advancements: false

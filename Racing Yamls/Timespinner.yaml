@@ -1,0 +1,71 @@
+﻿name: Timespinner_Comp{NUMBER}
+description: Default Timespinner Template
+
+game: Timespinner
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+Timespinner:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  StartWithJewelryBox: true
+
+  DownloadableItems: true
+
+  EyeSpy: false
+
+  StartWithMeyef: false
+
+  QuickSeed: false
+
+  SpecificKeycards: true
+
+  Inverted: true
+
+  GyreArchives: true
+
+  Cantoran: true
+
+  LoreChecks: true
+
+  BossRando: scaled
+
+  EnemyRando: off
+    off: 50
+
+  DamageRando: balanced
+
+  ExtraEarringsXP: 5
+
+  ShopFill: randomized
+
+  ShopWarpShards: true
+
+  ShopMultiplier: 1
+
+  LootPool: randomized
+
+  DropRateCategory: randomized
+
+  EnterSandman: true
+
+  DadPercent: false
+
+  RisingTides: true
+
+  UnchainedKeys: true
+
+  TrapChance: 0
+
+  PresentAccessWithWheelAndSpindle: true

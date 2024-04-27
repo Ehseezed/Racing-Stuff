@@ -1,0 +1,49 @@
+﻿name: SMZ3_Comp{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default SMZ3 Template
+
+game: SMZ3
+requires:
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+
+SMZ3:
+  progression_balancing:
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    locations: 0
+    items: 50
+    minimal: 0
+
+  sm_logic: normal
+
+  sword_location: randomized
+
+  morph_location: early
+    original: 0
+
+  goal: fastganondefeatmotherbrain # does not require beating aganim 2
+
+  key_shuffle: none
+
+  open_tower: 7
+
+  ganon_vulnerable: 5
+
+  open_tourian: 3
+
+  spin_jumps_animation: false
+
+  heart_beep_speed: half
+
+  heart_color: random
+
+  quick_swap: true
+
+  energy_beep: true
