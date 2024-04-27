@@ -1,6 +1,6 @@
 ## AM2R Ruleset
 
-| Trick                       | Major Glitches | Minor Glitches | Competitive |
+| Trick                       | Unrestricted | Restricted | Competitive |
 |-----------------------------|----------------|----------------|-------------|
 | Jet Zips	                   | ✓	             | ✓	             | ✓           |
 | Collision Zips	             | ✓	             | ✓	             | ✓           |

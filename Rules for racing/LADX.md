@@ -1,4 +1,4 @@
-## Links Awakening DX Ruleset
+## Link's Awakening DX Ruleset
 
 Magpie Already has the tricks partioned out into the categories Normal Hard Glitched Hell
 
