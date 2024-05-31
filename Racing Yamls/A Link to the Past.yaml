@@ -177,7 +177,7 @@ A Link to the Past:
     random-high: 0
 
   shuffle_capacity_upgrades: 
-    on: 0
+    on: 1
 
   bombless_start:
     false: 50
