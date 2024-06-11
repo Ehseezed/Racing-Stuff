@@ -3,5 +3,5 @@
 | Trick                 | Banned | Allowed |
 |-----------------------|--------|---------|
 | OOB                   | ✓      |         |
-| Leashes               | ✓      |         |
+| Leashes               |        |  ✓      |
 | Cloudstep-Shenanigans |        | ✓       |
