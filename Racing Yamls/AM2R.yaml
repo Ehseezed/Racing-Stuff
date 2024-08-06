@@ -3,29 +3,13 @@ description: Comp AM2R Template
 
 game: AM2R
 requires:
-  version: 0.4.5
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
 
 AM2R:
-  progression_balancing:
-    random: 0
-    random-low: 0
-    random-high: 0
-    disabled: 0 # equivalent to 0
-    normal: 50 # equivalent to 50
-    extreme: 0 # equivalent to 99
-
-  accessibility:
-    locations: 0
-    items: 50
-    minimal: 0
-
+  progression_balancing: 50
+  accessibility: locations
+  
   MetroidsRequired: 20
-
-  MetroidsAreChecks:
-    include_a6: 50
-
-  TrapFillPercentage:
-    0: 50
-    random: 0
-    random-low: 0
-    random-high: 0
+  MetroidsInPool: 25
+  LocationSettings: add_metroids_no_a6
+  TrapFillPercentage: 0
