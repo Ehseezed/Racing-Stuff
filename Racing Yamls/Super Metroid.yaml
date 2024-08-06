@@ -21,7 +21,7 @@ Super Metroid:
     items: 50
     minimal: 0
 
-  preset: causal
+  preset: casual
 
   remote_items: false
 
