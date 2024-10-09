@@ -1,4 +1,4 @@
-## ALTTPR Racing Ruleset
+## ALTTP Racing Ruleset
 
 | Trick                              | No Logic 	 | HMG	 | OWG	 | Competitive |
 |------------------------------------|------------|------|------|-------------|

@@ -1,0 +1,21 @@
+name: Terraria_Comp
+game: Terraria
+description: Terraria competive base yaml
+Terraria:
+  progression_balancing:
+    '50': 25
+  accessibility:
+    items: 25
+  goal:
+    mechanical_bosses: 25
+    plantera: 2
+    golem: 2
+    empress_of_light: 2
+    lunatic_cultist: 2
+    moon_lord: 2
+  achievements:
+    exclude_grindy: 25
+  fill_extra_checks_with:
+    useful_items: 25
+  death_link:
+    'false': 25
